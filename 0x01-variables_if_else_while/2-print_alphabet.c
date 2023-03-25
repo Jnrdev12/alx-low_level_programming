@@ -10,4 +10,5 @@ int main(void)
 	char str = tolower('H');
 
 	printf("%c", str);
+	return (0)
 }
