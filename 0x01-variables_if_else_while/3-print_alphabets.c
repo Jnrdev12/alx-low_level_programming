@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * Description - to print lower and upper case alphabet
- * Return - Always 0
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,7 +14,6 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-	putchar('\n');
 	while (d <= 90)
 	{
 		putchar(d);
