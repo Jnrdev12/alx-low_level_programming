@@ -7,11 +7,12 @@
  */
 int main(void)
 {
-	char str[26]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char str[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	for (int i = 0;i < 26;i++)
+	for (i = 0; i < 26; i++)
 	{
-		str[i]=tolower(str[i]);
+		str[i] = tolower(str[i]);
 		return (0);
 	}
 
