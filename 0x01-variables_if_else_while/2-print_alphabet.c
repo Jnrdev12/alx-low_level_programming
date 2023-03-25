@@ -7,8 +7,14 @@
  */
 int main(void)
 {
-	char str = tolower('H');
+	char str[26]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	printf("%c", str);
+	for (int i = 0;i < 26;i++)
+	{
+		str[i]=tolower(str[i]);
+		return (0);
+	}
+
+	printf("%s", str);
 	return (0);
 }
