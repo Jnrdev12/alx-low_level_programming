@@ -6,7 +6,8 @@
  *@str : variable to be used
  *
  * Return 0
+ */
 void _puts(char *str)
 {
-	printf("%s\n", str)
+	printf("%s\n", str);
 }
