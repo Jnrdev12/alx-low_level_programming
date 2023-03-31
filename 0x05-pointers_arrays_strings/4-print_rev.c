@@ -4,7 +4,7 @@
 /**
  * print_rev -  to print the reverse of a string
  *
- * @s-variable to be used
+ * @s: variable to be used
  *
  * Return 0
  */
