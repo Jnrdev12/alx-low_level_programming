@@ -23,15 +23,15 @@ void puts_half(char *s)
 		}
 		putchar('\n');
 	}
-	else
+	else if (len % 2 == 1)
 	{
-		int n = (len - 1 / 2);
+		int n = ((len - 1) / 2);
 		int i = n;
 
 		for (; i < len; i++)
 		{
 			printf("%c", *(s + i));
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
