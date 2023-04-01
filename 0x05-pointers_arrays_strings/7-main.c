@@ -9,7 +9,10 @@ int main(void)
 {
 	    char *str;
 
-	        str = "0123456789";
+	        str = "012345 6789";
 		    puts_half(str);
-		        return (0);
+		    int r=strlen_noSpace(str);
+		    _putchar(r);
+
+		    return (0);
 }

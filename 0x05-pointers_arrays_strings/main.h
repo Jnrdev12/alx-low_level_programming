@@ -11,3 +11,5 @@ void swap_int(int *a, int *b);
 void _puts(char *str);
 void print_rev(char *s);
 void puts_half(char *str);
+void strlen_noSpace(char *s);
+void print_array(int *a, int n);
