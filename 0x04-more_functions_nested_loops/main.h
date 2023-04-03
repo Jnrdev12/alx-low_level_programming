@@ -14,4 +14,5 @@ void puts_half(char *str);
 void strlen_noSpace(char *s);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
- int _isupper(int c);
+int _isupper(int c);
+int _isdigit(int c);
