@@ -11,27 +11,13 @@
 void puts_half(char *s)
 {
 	int len = strlen(s);
+	int i;
+	int half;
 
-	if (len % 2 == 0)
+	half = len / 2;
+	for (i = half; *(s + i) != '\0'; i++)
 	{
-		int n = len / 2;
-		int i = n;
-
-		for (; i < len; i++)
-		{
-			printf("%c", *(s + i));
-		}
-		putchar('\n');
+		_putchar(*(s + i));
 	}
-	else if (len % 2 == 1)
-	{
-		int n = ((len - 1) / 2);
-		int i = n;
-
-		for (; i < len; i++)
-		{
-			printf("%c", *(s + i));
-		}
-		putchar('\n');
-	}
+	_putchar('\n');
 }
